@@ -1,9 +1,9 @@
 title: homelab ez
-description: A starter template for a Jeykll site using the Just the Docs theme!
+description: A centralized documentation hub for my personal homelab, detailing the setup, configuration, and management of various self-hosted services.
 theme: just-the-docs
 color_scheme: "dark"
 
-url: https://rjhoppe.github.io/homelab/
+url: https://rjhoppe.github.io/homelab-ez/
 
 aux_links:
   Template Repository: https://github.com/just-the-docs/just-the-docs-template
