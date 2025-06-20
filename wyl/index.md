@@ -9,10 +9,6 @@ WatchYourLAN is a lightweight, self-hosted network IP scanner with a web GUI. It
 
 For more information, you can refer to the [official documentation](httpss://github.com/aceberg/WatchYourLAN).
 
-## Notes
-
-A place for notes about the watch-your-lan service.
-
 ## Docker Compose Configuration
 
 This is the configuration for the `watch-your-lan`.

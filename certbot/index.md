@@ -1,24 +1,24 @@
 ---
 layout: default
-title: Certbot
+title: certbot
 ---
 
-# Certbot
+# certbot
 
-## What is Certbot?
+## What is certbot?
 
 Certbot is a free, open-source software tool for automatically using Let's Encrypt certificates on manually-administered websites to enable HTTPS. It's developed by the Electronic Frontier Foundation (EFF) and is the most commonly used client for Let's Encrypt.
 
-## Why Use Certbot in a Homelab?
+## Why Use certbot in a homelab?
 
-In a homelab environment, you are often running multiple web services, dashboards, and applications. Using Certbot to secure these services provides several key benefits:
+In a homelab environment, you are often running multiple web services, dashboards, and applications. Using certbot to secure these services provides several key benefits:
 
 *   **Encryption:** It enables HTTPS (SSL/TLS) for your services, encrypting the traffic between your browser and the server. This is crucial for protecting sensitive information like login credentials, even on a local network.
 *   **Browser Trust:** Modern web browsers will show a "Not Secure" warning for any site served over plain HTTP. By using valid certificates from Let's Encrypt, your internal services will get the green padlock, eliminating security warnings and making them feel more professional.
 *   **It's Free:** Let's Encrypt provides SSL/TLS certificates completely free of charge.
 *   **Automation:** The best part of Certbot is its ability to automate the entire process of obtaining and, more importantly, renewing certificates. You can set it up once and forget about it, which is ideal for a low-maintenance homelab.
 
-Below you will find a collection of useful commands and configurations for managing Certbot and Nginx.
+Below you will find a collection of useful commands and configurations for managing certbot and Nginx.
 
 Check active ssl certs
 ```
@@ -37,7 +37,7 @@ sudo certbot install --cert-name sub.domain.dev
 
 NOTE: Must add a new DNS A record to your DNS provider of the subdomain first or else certbot will fail the validation challenge
 
-Bare bones NGINX config (before certbot install)
+Bare bones Nginx config (before certbot install)
 
 ```
 server {

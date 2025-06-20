@@ -9,10 +9,6 @@ Astro is a modern web framework for building fast, content-driven websites. It's
 
 For more information, you can refer to the [official documentation](https://docs.astro.build/).
 
-## Notes
-
-A place for notes about the astro-portfolio service.
-
 ## Docker Compose Configuration
 
 This is the configuration for the `astro-portfolio` service.

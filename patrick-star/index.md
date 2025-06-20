@@ -1,20 +1,17 @@
 ---
 layout: default
-title: Patrick Star
+title: patrick-star
 ---
 
-# Patrick Star
+# patrick-star
 
-## Notes
-
-A place for notes about the Patrick Star service.
+Patrick Star is a custom service from the [rjhoppe/patrick-star](https://github.com/rjhoppe/patrick-star) repository. The repository itself serves as the documentation for this service.
 
 ## Docker Compose Configuration
 
-This is the configuration for the `Patrick Star` service as found in the main `docker-compose.yaml`.
+This is the configuration for the `patrick-star` service.
 
 ```yaml
-# patrick-star
 services:
   patrick-star:
     container_name: patrick-star
@@ -27,5 +24,5 @@ services:
       - STORE_PAGE4=
       - STORE_PAGE5=
       - NTFY_URL=
-      - WEBHOOK_URL=
+      - WEBHOOK=
 ```

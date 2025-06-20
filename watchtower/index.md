@@ -9,10 +9,6 @@ Watchtower is a service that monitors running Docker containers and watches for 
 
 For more information, you can refer to the [official documentation](https://containrrr.dev/watchtower/).
 
-## Notes
-
-A place for notes about the watchtower service.
-
 ## Docker Compose Configuration
 
 This is the configuration for the `watchtower` service.

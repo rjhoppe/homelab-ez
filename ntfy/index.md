@@ -9,10 +9,6 @@ title: ntfy
 
 ntfy (pronounced "notify") is a simple, HTTP-based publish-subscribe notification service. It allows you to send push notifications to your phone or desktop from any script or application. For a homelab, it's perfect for getting alerts from your services, such as backup completion, failed cron jobs, or security alerts.
 
-## Notes
-
-A place for notes about the ntfy service.
-
 ## Usage Example
 
 Shamelessly lifted from here: https://docs.ntfy.sh/examples/#__tabbed_1_1

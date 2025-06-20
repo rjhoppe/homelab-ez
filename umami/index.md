@@ -9,10 +9,6 @@ title: umami
 
 Umami is a simple, fast, privacy-focused alternative to Google Analytics. It provides a self-hosted solution to track website usage statistics without collecting any personal data. In a homelab, it's perfect for monitoring traffic on your personal website or any other web services you host.
 
-## Notes
-
-A place for notes about the umami service.
-
 ## Docker Compose Configuration
 
 This is the configuration for the `umami` service.

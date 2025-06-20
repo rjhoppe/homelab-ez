@@ -5,9 +5,7 @@ title: pmp-summary
 
 # pmp-summary
 
-## Notes
-
-A place for notes about the pmp-summary service.
+The pmp-summary is a custom service from the [rjhoppe/pmp-summary](https://github.com/rjhoppe/pmp-summary) repository. The repository itself serves as the documentation for this service.
 
 ## Docker Compose Configuration
 

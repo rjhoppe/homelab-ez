@@ -5,9 +5,7 @@ title: aoe2-bot
 
 # aoe2-bot
 
-## Notes
-
-A place for notes about the aoe2-bot service.
+The aoe2-bot is a custom service from the [rjhoppe/aoe2-bot](https://github.com/rjhoppe/aoe2-bot) repository. The repository itself serves as the documentation for this service.
 
 ## Docker Compose Configuration
 

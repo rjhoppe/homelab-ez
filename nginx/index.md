@@ -1,15 +1,15 @@
 ---
 layout: default
-title: Nginx
+title: nginx
 ---
 
-# Nginx
+# nginx
 
-## What is Nginx?
+## What is nginx?
 
 Nginx (pronounced "engine-x") is a powerful, high-performance web server, reverse proxy, load balancer, and HTTP cache. It's known for its stability, rich feature set, simple configuration, and low resource consumption.
 
-## Why Use Nginx in a Homelab?
+## Why Use Nginx in a homelab?
 
 Nginx is one of the most useful tools you can have in a homelab. It acts as the "front door" for all of your self-hosted services, providing a single, clean entry point. Here are some of the key reasons to use it:
 

@@ -9,10 +9,6 @@ title: mumble
 
 Mumble is a free, open-source, low-latency, high-quality voice chat application. It's an excellent choice for a homelab because it allows you to self-host your own private, secure voice server for gaming, podcasts, or general communication with friends and family, ensuring your conversations remain private.
 
-## Notes
-
-A place for notes about the Mumble service.
-
 ## Docker Compose Configuration
 
 This is the configuration for the `Mumble` service.

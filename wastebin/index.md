@@ -9,10 +9,6 @@ Wastebin is a minimalist, self-hosted pastebin service. It's written in Rust and
 
 For more information, you can refer to the [official documentation](https://github.com/matze/wastebin).
 
-## Notes
-
-A place for notes about the wastebin service.
-
 ## Docker Compose Configuration
 
 This is the configuration for the `wastebin`.

@@ -9,10 +9,6 @@ title: uptime kuma
 
 Uptime Kuma is a self-hosted monitoring tool. It's an easy-to-use and feature-rich service that allows you to monitor the uptime of your HTTP(s) services, TCP ports, DNS records, and more. For a homelab, it is an essential tool for keeping an eye on all your services and getting notified when something goes down.
 
-## Notes
-
-A place for notes about the uptime kuma service.
-
 ## Docker Compose Configuration
 
 This is the configuration for the `uptime kuma` service.

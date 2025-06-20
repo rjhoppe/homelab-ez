@@ -9,10 +9,6 @@ title: glances
 
 Glances is a cross-platform system monitoring tool that presents a large amount of information in a minimal amount of space. It can be accessed via a terminal-based interface or a web UI. It's highly valuable in a homelab for getting a quick, comprehensive overview of your server's resource usage (CPU, memory, disk, network, etc.) in real-time.
 
-## Notes
-
-A place for notes about the glances service.
-
 ## Docker Compose Configuration
 
 This is the configuration for the `glances` service.

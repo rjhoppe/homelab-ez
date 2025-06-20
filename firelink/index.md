@@ -5,9 +5,7 @@ title: firelink
 
 # firelink
 
-## Notes
-
-A place for notes about the firelink service.
+firelink is a custom service from the [rjhoppe/firelink](https://github.com/rjhoppe/firelink) repository. The repository itself serves as the documentation for this service.
 
 ## Docker Compose Configuration
 

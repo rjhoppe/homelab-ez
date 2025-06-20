@@ -1,3 +1,14 @@
+---
+layout: default
+title: ufw
+---
+
+# ufw
+
+UFW (Uncomplicated Firewall) is the default firewall configuration tool for Ubuntu. It provides a user-friendly interface for managing `iptables` rules, making it easy to secure a server. It's particularly well-suited for host-based firewalls.
+
+For more information, you can refer to the [official documentation](https://help.ubuntu.com/community/UFW).
+
 ## Helpful ufw CMDs and Info
 
 Example of adding an allow rule (NOTE: the inclusion of the protocol at the end for your port)

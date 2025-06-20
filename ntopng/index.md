@@ -9,10 +9,6 @@ title: ntopng
 
 ntopng is a web-based network traffic monitoring application that provides a high-level overview of network traffic. In a homelab, it's incredibly useful for visualizing network usage, identifying bandwidth hogs, and troubleshooting network issues.
 
-## Notes
-
-A place for notes about the ntopng service.
-
 ## Docker Compose Configuration
 
 This is the configuration for the `ntopng` service.
