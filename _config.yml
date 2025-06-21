@@ -7,3 +7,22 @@ url: https://rjhoppe.github.io/homelab-ez/
 
 aux_links:
   Template Repository: https://github.com/just-the-docs/just-the-docs-template
+
+# Define Jekyll collections
+collections:
+  infrastructure:
+    permalink: "/:collection/:path/"
+    output: true
+  containers:
+    permalink: "/:collection/:path/"
+    output: true
+
+just_the_docs:
+  # Define which collections are used in just-the-docs
+  collections:
+    infrastructure:
+      name: Infrastructure
+      nav_fold: true
+    containers:
+      name: Containers
+      nav_fold: true

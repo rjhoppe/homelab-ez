@@ -3,6 +3,8 @@ title: Home
 layout: home
 ---
 
+# homelab-ez
+
 Welcome to my homelab documentation.
 
 This site contains a collection of notes, guides, and configurations for my personal homelab setup.
