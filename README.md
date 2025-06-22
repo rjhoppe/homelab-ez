@@ -2,4 +2,4 @@
 
 This repository contains documentation for my homelab setup.
 
-The content is generated from the `homelab-src` repository. 
+Check it out here: https://rjhoppe.github.io/homelab-ez/

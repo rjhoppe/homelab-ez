@@ -3,6 +3,9 @@ description: A centralized documentation hub for my personal homelab, detailing 
 theme: just-the-docs
 color_scheme: "dark"
 
+# Set a path/url to a favicon that will be displayed by the browser
+favicon_ico: "/assets/images/favicon.png"
+
 url: https://rjhoppe.github.io/homelab-ez/
 
 aux_links:
