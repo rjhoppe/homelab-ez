@@ -23,10 +23,7 @@ services:
       - "127.0.0.1:4321:4321"
     volumes:
       - sqlite-data:/data
-      - meta-data:/app/data/meta
-      - db-data:/app/data/db
+
 volumes:
   sqlite-data:
-  meta-data:
-  db-data:
 ```
