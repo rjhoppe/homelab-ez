@@ -29,3 +29,6 @@ just_the_docs:
     containers:
       name: Containers
       nav_fold: true
+    home-assistant:
+      name: Home Assistant
+      nav_fold: true
