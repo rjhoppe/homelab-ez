@@ -21,8 +21,18 @@ services:
     container_name: astro-portfolio
     ports:
       - "127.0.0.1:4321:4321"
+    environment:
+      - PUBLIC_GIFTS_PASSWORD=<YOUR_PUB_GIFTS_PW>
+      - AUTH_TRUST_HOST=true
+      - AUTH_SECRET=<YOUR_AUTH_SECRET>
+      - GITHUB_CLIENT_ID=<YOUR_GH_CLIENT_ID>
+      - GITHUB_CLIENT_SECRET=<YOUR_GH_CLIENT_SECRET>
+      - RESEND_API_KEY=<YOUR_RESEND_API_KEY>
+      - EMAIL_ADDRESS=<YOUR_EMAIL>
+      - SENTRY_AUTH_TOKEN="<YOUR_SENTRY_AUTH_TOKEN_IN_QUOTES>"
+      - ASTRO_TELEMETRY_DISABLED=1
     volumes:
-      - sqlite-data:/data
+      - ./data:/app/data 
 
 volumes:
   sqlite-data:

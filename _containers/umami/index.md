@@ -19,39 +19,25 @@ services:
     image: ghcr.io/umami-software/umami:postgresql-latest
     container_name: umami
     ports:
-      - 3000:3000
+      - 54567:3000
     environment:
-      DATABASE_URL: postgresql://${POSTGRES_USER}:${POSTGRES_PASSWORD}@umami-db:5432/${POSTGRES_DB}
+      DATABASE_URL: postgresql://admin:<YOUR_DB_PW>@umami-db:5432/umami
       DATABASE_TYPE: postgresql
-      APP_SECRET: ${APP_SECRET}
+      APP_SECRET: <YOUR_APP_PW>
     depends_on:
-      umami-db:
-        condition: service_healthy
+      - umami-db
     restart: unless-stopped
-    healthcheck:
-      test:
-        - CMD-SHELL
-        - curl http://localhost:3000/api/heartbeat
-      interval: 5s
-      timeout: 5s
-      retries: 5
+
   umami-db:
     image: postgres:15-alpine
     container_name: umami-db
     environment:
-      POSTGRES_DB: ${POSTGRES_DB}
-      POSTGRES_USER: ${POSTGRES_USER}
-      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+      POSTGRES_DB: umami
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: <YOUR_PG_PW>
     volumes:
       - ./umami-db-data:/var/lib/postgresql/data
     restart: unless-stopped
-    healthcheck:
-      test:
-        - CMD-SHELL
-        - pg_isready -U $${POSTGRES_USER} -d $${POSTGRES_DB}
-      interval: 5s
-      timeout: 5s
-      retries: 5
   umami-db-backup:
     container_name: umami-db-backup
     image: tiredofit/db-backup
@@ -60,9 +46,9 @@ services:
     environment:
       DB_TYPE: postgres
       DB_HOST: umami-db
-      DB_NAME: ${POSTGRES_DB}
-      DB_USER: ${POSTGRES_USER}
-      DB_PASS: ${POSTGRES_PASSWORD}
+      DB_NAME: umami
+      DB_USER: admin
+      DB_PASS: <YOUR_DB_PW>
       DB_BACKUP_INTERVAL: 720
       DB_CLEANUP_TIME: 72000
 ```
