@@ -26,6 +26,7 @@ State template: Paste the following code, replacing the placeholder with your sm
 {% endif %}
 Unit of measurement: s (seconds)
 ```
+{% endraw %}
 
 State class: Leave this field BLANK (This is the critical fix for the overcounting issue).
 
@@ -76,6 +77,7 @@ Name: Daily Desk Time Readable
 
 State template: Paste the code below, ensuring you use the entity ID of your Utility Meter (from Part 3).
 
+{% raw %}
 ```
 {% set seconds = states('sensor.daily_desk_time') | float(0) %}
 {% set hours = (seconds // 3600) | int %}
@@ -91,6 +93,7 @@ State template: Paste the code below, ensuring you use the entity ID of your Uti
 {% endif %}
 Unit of measurement: (Leave blank for a clean display)
 ```
+{% endraw %}
 
 Action: Click CREATE.
 

@@ -30,5 +30,4 @@ actions:
     entity_id: <YOUR_ENTITY_ID>
     domain: switch
 mode: single
-
 ```

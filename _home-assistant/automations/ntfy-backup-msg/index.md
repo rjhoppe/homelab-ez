@@ -33,3 +33,4 @@ actions:
             action: notify.ntfy
 mode: single
 ```
+{% endraw %}
