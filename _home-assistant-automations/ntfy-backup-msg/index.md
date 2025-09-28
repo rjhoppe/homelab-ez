@@ -2,8 +2,11 @@
 layout: default
 title: ntfy-backup-msg
 ---
+# ntfy-backup-msg
+
 Sends a message to my ntfy instance telling me that my Home Assistant backup to my GDrive has been successful
 
+## YAML Template
 {% raw %}
 ```
 alias: ntfy Backup Notifications

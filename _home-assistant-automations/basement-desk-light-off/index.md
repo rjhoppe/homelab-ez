@@ -2,8 +2,11 @@
 layout: default
 title: turn off basement-desk-light
 ---
+# turn off basement-desk light
+
 Turn off smart plug for my desk light if my motion sensor detects movement
 
+## YAML Template
 ```
 alias: Basement turn off desk light
 description: ""

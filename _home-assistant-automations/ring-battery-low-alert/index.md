@@ -2,8 +2,11 @@
 layout: default
 title: ring-battery-low-alert
 ---
+# ring-battery-low-alert
+
 A custom battery low alert for a Ring doorbell that sends a message to my Home Assistant Android app and ntfy instance
 
+## YAML Template
 {% raw %}
 ```
 alias: Ring doorbell camera battery low
