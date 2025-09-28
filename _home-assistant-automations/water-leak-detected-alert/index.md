@@ -2,10 +2,13 @@
 layout: default
 title: water-leak-alert
 ---
+# water-leak alert
+
 Alerts for my Aqara water leak sensors that send me a ntfy message and a Home Assistant app notification if the sensors switch from the `dry` to the `moist` state.
 
 It took me a little bit to figure out how to the nfty message format to not look so *ugly* :)
 
+## YAML Template
 {% raw %}
 ```
 alias: Water leak alert
