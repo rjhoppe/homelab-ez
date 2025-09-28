@@ -9,7 +9,7 @@ favicon_ico: "/assets/images/favicon.png"
 url: https://rjhoppe.github.io/homelab-ez/
 
 aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+  Repo: https://github.com/rjhoppe/homelab-ez
 
 # Define Jekyll collections
 collections:
@@ -20,6 +20,9 @@ collections:
     permalink: "/:collection/:path/"
     output: true
   home-assistant:
+    permalink: "/:collection/:path/"
+    output: true
+  home-assistant-automations:
     permalink: "/:collection/:path/"
     output: true
 
@@ -33,5 +36,8 @@ just_the_docs:
       name: Containers
       nav_fold: true
     home-assistant:
-      name: Home Assistant
+      name: Home Assistant Config
+      nav_fold: true
+    home-assistant-automations:
+      name: Home Assistant Automations
       nav_fold: true

@@ -11,7 +11,7 @@ This site contains a collection of notes, guides, and configurations for my pers
 
 You can browse the available documentation using the navigation menu. 
 
-Or visit the repo here: `https://github.com/rjhoppe/homelab-ez`
+Or visit the repo here: https://github.com/rjhoppe/homelab-ez
 
 ## Security Considerations
 
