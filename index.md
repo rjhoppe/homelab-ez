@@ -11,6 +11,8 @@ This site contains a collection of notes, guides, and configurations for my pers
 
 You can browse the available documentation using the navigation menu. 
 
+Or visit the repo here: `https://github.com/rjhoppe/homelab-ez`
+
 ## Security Considerations
 
 Securing a homelab is crucial to protect your local network and any services you expose to the internet. Here are some fundamental security practices and tools to consider.
