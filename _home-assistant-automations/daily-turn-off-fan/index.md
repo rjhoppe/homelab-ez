@@ -2,8 +2,11 @@
 layout: default
 title: daily turn off bedroom fan
 ---
+# daily turn off bedroom fan
+
 Daily task to turn off the smart plug for my bedroom fan
 
+## YAML Template
 ```
 alias: Daily turn off bedroom fan
 description: ""

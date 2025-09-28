@@ -2,6 +2,8 @@
 layout: default
 title: track desk time widget
 ---
+# track desk time widget
+
 I wanted to be able to use the data from my basement desk-light to calculate how many hours I work a week. The idea was that I just needed a way to accumulate all the time the light spent in the `on` state and visualize that in a widget. Then at the end of the week, the time would reset to zero.
 
 ## Part 1: The Input Sensor (Tracking On/Off State)

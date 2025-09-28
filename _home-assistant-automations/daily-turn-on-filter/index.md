@@ -2,8 +2,11 @@
 layout: default
 title: daily turn on air filter
 ---
+# daily turn on air filter
+
 Daily task to turn on the smart plug for my living room air filter
 
+## YAML Template
 ```
 alias: Daily turn on air filter
 description: ""
