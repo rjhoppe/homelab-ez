@@ -9,8 +9,8 @@ alias: Basement turn off desk light
 description: ""
 triggers:
   - type: not_occupied
-    device_id: 9214842e98f9cdabdcd32c24931ecb5f
-    entity_id: c97ac11bacde16deee4c45ff52c41453
+    device_id: <YOUR_DEVICE_ID>
+    entity_id: <YOUR_ENTITY_ID>
     domain: binary_sensor
     trigger: device
     for:
@@ -22,8 +22,8 @@ conditions:
     before: sunset
 actions:
   - type: turn_off
-    device_id: cf66dfc9e8574dd8c5131b622045b494
-    entity_id: cce3b3b6a00a2cc5cb292360aae70b74
+    device_id: <YOUR_DEVICE_ID>
+    entity_id: <YOUR_ENTITY_ID>
     domain: switch
 mode: single
 ```

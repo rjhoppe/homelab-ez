@@ -17,6 +17,7 @@ Name: Desk Light State (e.g., sensor.desk_light_state)
 
 State template: Paste the following code, replacing the placeholder with your smart plug's entity ID (e.g., switch.basement_desk_light_smart_plug).
 
+{% raw %}
 ```
 {% if is_state('switch.basement_desk_light_smart_plug', 'on') %}
   1

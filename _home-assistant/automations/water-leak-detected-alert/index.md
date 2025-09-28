@@ -6,6 +6,7 @@ Alerts for my Aqara water leak sensors that send me a ntfy message and a Home As
 
 It took me a little bit to figure out how to the nfty message format to not look so *ugly* :)
 
+{% raw %}
 ```
 alias: Water leak alert
 description: ""
