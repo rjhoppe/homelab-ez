@@ -17,7 +17,7 @@ This is the configuration for the `watchtower` service.
 services:
   watchtower:
     container_name: watchtower
-    image: containrrr/watchtower
+    image: nickfedor/watchtower
     environment:
       - TZ=America/New_York
       - WATCHTOWER_CLEANUP=true
