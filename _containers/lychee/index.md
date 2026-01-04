@@ -3,7 +3,7 @@ layout: default
 title: lychee
 ---
 
-
+Lychee is a stunning and user-friendly photo management system that you can run on your own server. It's a free, open-source tool designed to help you upload, manage, and share your photos seamlessly, much like a native application. With Lychee, you maintain full control over your images, ensuring they are stored securely and accessible from anywhere.
 
 ## Docker Compose Configuration
 
