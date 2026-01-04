@@ -5,17 +5,23 @@ title: ollama
 
 # ollama
 
-Run a local LLM on a Windows machine (with a GPU) that all your devices can access on the same, local network.
+[Official Documentation](https://ollama.ai/docs)
 
-## 1: Install ollama on your Windows GPU machine
+Ollama is a powerful tool for running large language models locally. It allows you to set up and interact with various LLMs on your machine, making them accessible across your local network.
 
-## 2: Get your host IPv4 address
+## Installation
+
+### Install Ollama on your Windows GPU machine
+
+## Configuration for Network Access
+
+### Get your host IPv4 address
 
 Get the local IPv4 address for your Windows host (will need this later)
 ```
 ipconfig
 ```
-## 3: Set OLLAMA_HOST var for ollama local network access
+### Set OLLAMA_HOST Environment Variable
 
 Set some env vars for ollama to allow other machines to access it on the same network
 
@@ -33,7 +39,9 @@ set OLLAMA_HOST=0.0.0.0:11434
 
 Restart ollama after setting this var
 
-## 4: Pull your ollama model of choice
+## Model Management
+
+### Pull your Ollama model of choice
 
 On a mid range GPU (NVIDIA 3060), I choose to try the `qwen2.5-coder:7b-instruct`
 
@@ -43,18 +51,21 @@ You can pull and run in the same command, but I like doing them separately.
 ollama pull qwen2.5-coder:7b-instruct
 ```
 
-## 5: Run your ollama model
+### Run your Ollama model
 ```
 ollama run qwen2.5-coder:7b-instruct
 ```
 
-To test your connection:
+## Testing Connection and API
+
+### Test your connection
 
 ```
 curl http://YOUR_WINDOWS_IP:11434/api/tags
 ```
 
-To test with an API request (from an external device on the same network)
+### Test with an API request
+
 ```
 curl http://YOUR_WINDOWS_IP:11434/api/generate -d '{
   "model": "qwen2.5-coder:7b-instruct",
@@ -63,7 +74,7 @@ curl http://YOUR_WINDOWS_IP:11434/api/generate -d '{
 }'
 ```
 
-## Other helpful ollama cmds
+## Other Helpful Ollama Commands
 
 To see what model is loaded into ollama:
 ```
